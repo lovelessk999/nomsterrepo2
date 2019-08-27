@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 ## Gemfile for Rails 3+, Sinatra, and Merb
 gem 'simple_form'
 
-
+gem "font-awesome-rails"
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
