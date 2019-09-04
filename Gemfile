@@ -33,6 +33,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 ## Gemfile for Rails 3+, Sinatra, and Merb
 gem 'simple_form'
+gem 'html_routes', '~> 1.0', group: :development
+# pretty rake routes
 
 gem 'devise'
 
