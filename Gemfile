@@ -38,6 +38,8 @@ gem 'html_routes', '~> 1.0', group: :development
 # pretty rake routes
 
 gem 'devise'
+# gem "figaro"
+gem 'fog-aws'
 
 gem "font-awesome-rails"
 # Use ActiveStorage variant
