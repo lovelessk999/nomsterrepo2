@@ -11,19 +11,19 @@
   <%= image_tag 'slider1.jpg', class: 'd-block img-fluid' %>
 <!--             Add the correct pictures to '' -->
       <div class="carousel-caption d-none d-md-block">
-        <h3>Salad Mother Fucker</h3>
+        <h3>Salad!</h3>
       </div>
     </div>
     <div class="carousel-item">
 <%= image_tag 'slider2.jpg', class: 'd-block img-fluid' %>
       <div class="carousel-caption d-none d-md-block">
-        <h3>Eggs</h3>
+        <h3>Brunch!</h3>
       </div>
     </div>
     <div class="carousel-item">
 <%= image_tag 'slider3.jpg', class: 'd-block img-fluid' %>
       <div class="carousel-caption d-none d-md-block">
-        <h3>Carbs</h3>
+        <h3>Pizza!</h3>
       </div>
     </div>
   </div>
@@ -52,7 +52,7 @@
       <div class="col-12 col-md-3">
         <% if place.photos.present? %>
           <div class="photos-index float-right">
-             <img src="<%= place.photos.first.picture %>" style="max-width: 200px; max-height: 200px;" class ="show-image-size">
+             <img src="<%= place.photos.last.picture %>" style="max-width: 200px; max-height: 200px;" class ="show-image-size">
           </div>
         <% end %>
       </div>
